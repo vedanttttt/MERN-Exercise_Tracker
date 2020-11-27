@@ -1,4 +1,5 @@
 import React,{Component} from 'react'
+import axios from 'axios'
 
 class CreateUser extends Component{
     constructor(props){
@@ -26,6 +27,9 @@ class CreateUser extends Component{
         }
 
         console.log(user);
+
+        axios.post('http://localhost:5000/users/add',user)
+            .then(res => console.log(res.data));
 
         //we will keep the user to this page only and will set username to blank to help user insert other names too.
         this.setState({
