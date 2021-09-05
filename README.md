@@ -2,7 +2,7 @@
 
 ####  Video of the project :- https://drive.google.com/file/d/1Ej8_UVf4CEnTD2xuYcfgqnnFXoXgwbrz/view?usp=sharing
 
-###  Details :- Website which stores the details of all the certificates issued to the users along with the feature of verifying any certificate of the candidate.
+###  Details :- Web Application where users can store their details and add the exercises with details. Also have the feature to edit, delete and add new users and exercise.
 
 
 ![Screenshot (458)](https://user-images.githubusercontent.com/51362126/123511361-702b6100-d69e-11eb-85a7-66fc50c63152.png)
